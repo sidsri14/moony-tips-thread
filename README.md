@@ -1,32 +1,47 @@
-# React + TypeScript + Vite
+# 🌙 Moony Tips: Permissionless Creator Tipping & Flipcash Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Interactive Thread Studio & Step-by-Step Creator Tipping Guide for $MOONY on Solana & Flipcash.**  
+> Built for the official **Moony Tips Bounty ($300 USDC Pool)** on [Superteam Earn](https://superteam.fun/earn).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ Overview: The Creator Monetization Problem
 
-## React Compiler
+Traditional creator monetization platforms (Patreon, YouTube, Twitch) penalize creators with:
+- ❌ **Predatory Fees**: 30%+ revenue cuts and processing fees.
+- ❌ **Minimum Payout Limits**: Delayed 30-day payout cycles.
+- ❌ **Geographic Lockouts**: Bank-restricted cross-border payments.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**$MOONY & Flipcash Tip Cards** solve this natively on Solana:
+- ⚡ **Zero Middleman Cuts**: 100% of the tip goes directly to the creator's wallet.
+- 🔗 **Universal Tip Cards**: Embeddable links and QR codes that work across YouTube, Twitter/X, blogs, and podcasts.
+- ⚡ **Instant Settlement**: Sub-cent transaction costs with <1 second finality.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🛠️ Features & Interactive Thread Studio
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- **8-Tweet Creator Campaign**: Step-by-step explainer with 1-click clipboard copy.
+- **Tip Card Simulator**: Interactive demo of creating, sharing, and funding a Flipcash Tip Card.
+- **Creator Onboarding Flow**: 60-second walkthrough from wallet setup to receiving first $MOONY tip.
+
+---
+
+## 🚀 Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/sidsri14/moony-tips-thread.git
+cd moony-tips-thread
+
+# Install dependencies
+npm install
+
+# Start local server (Port 5188)
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 📜 License
+MIT © 2026 Siddharth Srivastava (@sidsri14)
